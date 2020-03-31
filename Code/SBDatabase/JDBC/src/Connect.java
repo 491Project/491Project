@@ -18,10 +18,6 @@ public class Connect {
             // Loads MySQL driver to our program
             Class.forName("com.mysql.jdbc.Driver");
 
-            // Establish database connection
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost" +
-                    ":3306/StuddiBuddi?useSSL=false", "root", "G1ng4t34forlyfe");
-
             // Create a Statement object
             Statement stmt = conn.createStatement();
             // Create a ResultSet object and assign it the values retrieved from a query
