@@ -12,4 +12,4 @@ Use this link: https://github.com/491Project/StudiBuddi.git
 
 Let the project configure (2-3 minutes)
 
-Run the app on your virtual device! Enjoy
+Run the app on your virtual device
