@@ -18,15 +18,28 @@ public class Connect {
             // Loads MySQL driver to our program
             Class.forName("com.mysql.jdbc.Driver");
 
+            // Establish database connection
+            Connection conn = DriverManager.getConnection("jdbc:mysql://studibuddi.cvo8hcorg85o.us-west-1.rds.amazonaws.com" +
+                    ":3306/studibuddi?user=" + "masterbuddi" + "&password=myMasterPass");
+
+//            String jdbcUrl = "jdbc:postgresql://" + hostname + ":" + port + "/" + dbName + "?user=" + userName + "&password=" + password;
+
             // Create a Statement object
             Statement stmt = conn.createStatement();
             // Create a ResultSet object and assign it the values retrieved from a query
-            ResultSet rs = stmt.executeQuery("SELECT * FROM TestTable");
+            String email = "hunterd98@gmail.com";
+            PreparedStatement myStmt = conn.prepareStatement("DELETE FROM Post");
+            //myStmt.setString(1, email);
+            myStmt.executeUpdate();
+            myStmt.close();
             // Print each student's ID and name
-            while (rs.next()) {
-                System.out.println("ID: " + rs.getInt("studentID") + "\nName: " +
-                        rs.getString("studentName") + "\n");
-            }
+/*            if (rs.next()) {
+                System.out.println(rs.first());
+            }*/
+            //System.out.println(rs.first());
+/*            while (rs.next()) {
+                System.out.println(rs.getString("bEmail"));
+            }*/
 
             System.out.println("\n\nDatabase connection successful.");
         }
