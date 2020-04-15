@@ -7,7 +7,7 @@ The Main Repository for our Senior Design Project
 To download and demo: 
 
 Download the app's APK and save to your computer: https://github.com/491Project/491Project/tree/master/APKToDownload
-(It's in the root of our repository)
+(It's in the APKToDownload folder of our repository)
 
 Go to: https://www.apkonline.net/filemanager.php?username=1586917357
 
