@@ -1,4 +1,5 @@
-Privacy Policy for Studi Buddi
+Privacy Policy for Studi Buddi v0.1
 
 All data for StudiBuddi within the app will be used for educational purposes only. 
 No personal data will be sold or used outside of our development team. 
+All user login data will be encrypted and stored securely in cloud storage.
