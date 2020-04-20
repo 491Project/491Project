@@ -20,3 +20,11 @@ Click button on right that says >Run_APK.
 The APK name should be in red, hit Start.
 
 It will configure, then hit OK.
+
+
+
+If on an Android device:
+
+Enable developer settings in your settings app
+
+Download the SDK from our github and install directly onto your device
