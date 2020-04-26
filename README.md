@@ -5,7 +5,7 @@ VIEW CODE HERE: https://github.com/491Project/StudiBuddi
 The Main Repository for our Senior Design Project
 
 
-To download and demo:
+# To download and demo:
 
 ## If you do not have an android device:
 
