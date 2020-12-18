@@ -24,10 +24,6 @@ It will configure, then hit OK.
 The online emulator may be slow, it does not represent real time performance of our app on a real device.
 
 
-## If you have an Android device:
-
-Download directly from the Play Store here:
-https://play.google.com/store/apps/details?id=buddis.app.studibuddi
 
 If you want to directly install the SDK to your device or virtual device: 
 
